@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 
 
 app.get("/api/rates", (req, res) => {
-  const url = 'https://api.exchangeratesapi.io/latest?base=USD&symbols=USD';
+  const url = 'https://api.exchangeratesapi.io/latest?symbols=USD,GBP';
 
   request(url, (error, response, body) => {
     if(error){
