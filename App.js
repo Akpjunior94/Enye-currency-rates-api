@@ -12,7 +12,7 @@ require('dotenv').config()
 app.get("/", (req, res) => {
   res.send(
    ` <h1>Welcome to Enye Currency Data Task</h1>
-    <p>Navigate to <em style="color: red; text-align:center;">localhost:4000/api/rates</em> for your data</p>
+    <p>Navigate to <em style="color: red; text-align:center;"> /api/rates </em> for your data</p>
    `
   )
 })
